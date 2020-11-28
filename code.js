@@ -115,8 +115,11 @@ $(document).ready(
             {
                 results.innerHTML = "Not Approved";
             }
-            else
-                return false;
+            else {
+                results.innerHTML = " You must enter your salary, credit score, and months of employment";
+            }
+
+            return false;
 
         }
     });
